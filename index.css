@@ -1,0 +1,13 @@
+.headercontainer {
+    
+    display: flex;
+}
+
+.headercontainer div {
+ background-color: blanchedalmond;
+ border: 5px solid saddlebrown;
+ height: 80px;
+ flex: 1 1 auto;
+}
+
+
