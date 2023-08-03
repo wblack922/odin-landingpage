@@ -1,13 +1,24 @@
-.headercontainer {
-    
-    display: flex;
+header{
+    display:inline-block;
+    size: 40px;
 }
 
-.headercontainer div {
+.flexcontainer {
+ flex-direction:column;
  background-color: blanchedalmond;
  border: 5px solid saddlebrown;
- height: 80px;
+ height: auto;
  flex: 1 1 auto;
 }
 
+.logo {
+    background-color:aqua;
+    height:auto;
+    flex: 1 1 auto;
+}
 
+.link {
+    background-color: black;
+    height:auto;
+    flex: 1 1 auto;
+}
