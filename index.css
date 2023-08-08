@@ -1,24 +1,65 @@
-header{
-    display:inline-block;
-    size: 40px;
+.header{
+    display:flex;
+    /*background-color:lightcoral;*/
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
 .flexcontainer {
+ display: flex;
  flex-direction:column;
- background-color: blanchedalmond;
+ /* background-color: blanchedalmond;
  border: 5px solid saddlebrown;
  height: auto;
- flex: 1 1 auto;
+ flex: 1 1 auto; */
 }
 
 .logo {
-    background-color:aqua;
-    height:auto;
-    flex: 1 1 auto;
+    width: 40px;
+    height: 40px;
+    color:aqua;
+    padding: 1;
+    margin-right: auto;
+    /* flex: 1 1 auto; */
 }
 
 .link {
-    background-color: black;
-    height:auto;
-    flex: 1 1 auto;
+    
+    margin-left: auto;
+    padding: 0px 50px 0px 0px;  
+    
+}
+
+.mainSection {
+    display: flex;
+    background-color: lightblue;
+
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainImg {
+    margin-left: auto;
+}
+
+.placeSection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.placeSubSection {
+    display: flex;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
 }
